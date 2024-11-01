@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enter PIN</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='hacker_style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">[ ENTER PIN TO ACCESS FILE ]</h1>
+        <form action="" method="POST">
+            <input type="text" name="pin" required placeholder="PIN" class="pin-input">
+            <button type="submit" class="btn-access">Access File</button>
+        </form>
+    </div>
+</body>
+</html>
